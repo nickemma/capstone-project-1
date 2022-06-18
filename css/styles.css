@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+:root {
+  --dark-blue: #272a31;
+  --coral: #ec5242;
+  --light-gray: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all 0.2s linear;
+  font-family: 'lato', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+section {
+  padding: 2rem 7%;
+}
+.header #menu-btn {
+  font-size: 4rem;
+  color: #272a31;
+  cursor: pointer;
+  margin: 1.5rem 2rem;
+  padding-left: 3%;
+}
+
+.hero {
+  background-image: url(../assets/images/digital.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.hero .content h3 {
+  font-size: 25px;
+  color: var(--coral);
+  text-transform: capitalize;
+}
+.hero .content .title {
+  font-family: 'lato', sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+.hero .content .title-header {
+  color: transparent;
+  background-image: linear-gradient(
+    45deg,
+    #c71e1e 0%,
+    red 26%,
+    #ff9500 76%,
+    #ffb800 100%
+  );
+  background-color: #ec5242;
+  -webkit-background-clip: text;
+}
+.text-heading {
+  border: 4px solid #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+}
+.text-heading p {
+  color: #272a31;
+  font-size: 20px;
+  line-height: 25px;
+}
+.content h2 {
+  color: #272a31;
+  font-size: 30px;
+  font-weight: 400;
+}
+.content p {
+  color: #272a31;
+  font-size: 20px;
+  line-height: 25px;
+}
