@@ -15,7 +15,49 @@
   </head>
   <body>
     <header class="header">
-      <div class="fas fa-bars" id="menu-btn"></div>
+      <div id="menu" class="fas fa-bars"></div>
+      <div class="navbar-nav">
+        <ul>
+          <li>
+            <i class="fab fa-github"></i>
+          </li>
+          <li>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li>
+            <a href="#">english</a>
+          </li>
+          <li>
+            <a href="#">myPage</a>
+          </li>
+          <li>
+            <a href="#">logOut</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <ul>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#main-program">program</a>
+          </li>
+          <li>
+            <a href="#speakers">join</a>
+          </li>
+          <li>
+            <a href="#partners">sponsor</a>
+          </li>
+          <li>
+            <a href="#footer">news</a>
+          </li>
+          <a href="#" class="btn">cc campaing</a>
+        </ul>
+      </nav>
     </header>
     <section class="about" id="about">
       <div class="about-content">
@@ -23,13 +65,24 @@
         <h1 class="about-title about-header">
           creative commons bootcamp summer 2022
         </h1>
+        <hr class="line" />
         <div class="about-text">
-          <p>
+          <p class="pfirst">
             The Creative Commons Bootcamp Summer 2022 was born in April 2015,
             not just as a programming foundation, a school, an Institute, or
             anything else you can imagine. It was born as a proposition. As an
             idea to flip the world mindset around what programming is and means
             to Science.
+          </p>
+          <p class="psecond">
+            The Creative Commons Bootcamp Summer 2022 was born in April 2015,
+            not just as a programming foundation, a school, an Institute, or
+            anything else you can imagine. It was born as a proposition. As an
+            idea to flip the world mindset around what programming is and means
+            to Science, Industry, Future, and finally to the most important
+            actor: People. This project aims to show that when we program with a
+            purpose, we do more than code. We develop. And if you have that
+            mindset, this place is what you might call "Home". Welcome!
           </p>
         </div>
         <p class="lead">
@@ -42,9 +95,15 @@
     <section class="logo-container" id="logo">
       <h2 class="theme">creative commons bootcamp summer 2022 logo</h2>
       <hr class="line" />
-      <p>
+      <p class="small-text">
         The logo of the CC Bootcamp Summer 2022 was decided after a thoughtful
         analysis of the words "Programming with a purpose".
+      </p>
+      <p class="big-text">
+        The logo of the CC Bootcamp Summer 2022 was decided after a thoughtful
+        analysis of the words "Programming with a purpose". Our main focus is to
+        show to the world that "Making code" and "Being a programmer" are two
+        different things.
       </p>
       <div class="logo-content">
         <img src="./assets/images/logo.svg" alt="cc bootcamp logo" />
@@ -54,7 +113,7 @@
     <section class="logo-container">
       <h2 class="theme">see the past cc bootcamp summers</h2>
       <hr class="line" />
-      <p>
+      <p class="text-info">
         Take a glance at the last Two Bootcamp Summers which took place in
         Portugal and Brazil.
       </p>
@@ -82,10 +141,10 @@
       </div>
     </section>
 
-    <section class="partner">
+    <section class="partner about-partner" id="partner">
       <h2>partner</h2>
       <hr class="line" />
-      <div class="partner-container">
+      <div class="partner-container about-partner">
         <a href="#"
           ><img src="./assets/images/mozilla.svg" alt="mozilla firefox logo"
         /></a>
@@ -101,16 +160,21 @@
         /></a>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer about-footer" id="footer">
       <img src="./assets/images/creative_commons.svg" alt="logo" />
       <div>
         <p class="footer-title">
           2022 creative commons Portugal, all right reserved
         </p>
+        <p class="copyright about-copyright">
+          CC Bootcamp Summer 2022 works under the Creative Commons license which
+          means that the content provided during the program will be under the
+          same license. Refer to the Creative Commons page to read more about
+          it.
+        </p>
       </div>
     </footer>
     <!-- ========custom js file part===========  -->
     <script src="js/app.js"></script>
-    <script src="js/data.js"></script>
   </body>
 </html>

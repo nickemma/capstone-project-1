@@ -15,7 +15,49 @@
   </head>
   <body>
     <header class="header">
-      <div class="fas fa-bars" id="menu-btn"></div>
+      <div id="menu" class="fas fa-bars"></div>
+      <div class="navbar-nav">
+        <ul>
+          <li>
+            <i class="fab fa-github"></i>
+          </li>
+          <li>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li>
+            <a href="#">english</a>
+          </li>
+          <li>
+            <a href="#">myPage</a>
+          </li>
+          <li>
+            <a href="#">logOut</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <ul>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#main-program">program</a>
+          </li>
+          <li>
+            <a href="#speakers">join</a>
+          </li>
+          <li>
+            <a href="#partners">sponsor</a>
+          </li>
+          <li>
+            <a href="#footer">news</a>
+          </li>
+          <a href="#" class="btn">cc campaing</a>
+        </ul>
+      </nav>
     </header>
     <section class="hero" id="home">
       <div class="content">
@@ -76,10 +118,53 @@
         </li>
       </ul>
       <a href="#" class="btn">join cc bootcamp summer 2022</a>
+      <a href="#" class="text">see the whole program</a>
     </section>
+
+    <section class="professor" id="speakers">
+      <h2 class="subtitle">bootcamp professors</h2>
+      <hr class="line" />
+      <div class="grid-container">
+        <!-- ========speakers loaded dynamically using Javascript=========  -->
+      </div>
+      <button type="button" class="btn">More</button>
+    </section>
+
+    <section class="partner home-partner" id="partners">
+      <h2>partner</h2>
+      <hr class="line" />
+      <div class="partner-container">
+        <a href="#"
+          ><img src="./assets/images/mozilla.svg" alt="mozilla firefox logo"
+        /></a>
+        <a href="#"
+          ><img src="./assets/images/google.svg" alt="google logo"
+        /></a>
+        <a href="#"><img src="./assets/images/naver.svg" alt="navay logo" /></a>
+        <a href="#"
+          ><img src="./assets/images/daumkakao.svg" alt="daumkakao logo"
+        /></a>
+        <a href="#"
+          ><img src="./assets/images/airbnb.svg" alt="airbnb logo"
+        /></a>
+      </div>
+    </section>
+    <footer class="footer footer-home" id="footer">
+      <img src="./assets/images/creative_commons.svg" alt="logo" />
+      <div>
+        <p class="footer-title">
+          2022 creative commons Portugal, all right reserved
+        </p>
+        <p class="copyright home-copyright">
+          CC Bootcamp Summer 2022 works under the Creative Commons license which
+          means that the content provided during the program will be under the
+          same license. Refer to the Creative Commons page to read more about
+          it.
+        </p>
+      </div>
+    </footer>
 
     <!-- ========custom js file part========= -->
     <script src="js/app.js"></script>
-    <script src="js/data.js"></script>
   </body>
 </html>
