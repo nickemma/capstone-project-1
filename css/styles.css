@@ -73,6 +73,7 @@ section {
   font-size: 3rem;
   text-align: center;
 }
+
 .navbar .btn {
   display: none;
 }
@@ -87,6 +88,29 @@ section {
 
 .navbar-nav {
   display: none;
+}
+
+.language img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.logo-content img {
+  max-width: 100%;
+}
+
+.event img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer img {
+  width: 200px;
+  margin-left: 15%;
+  margin-right: 5%;
 }
 
 .navbar .logo img {
@@ -108,6 +132,21 @@ section {
 
 .content {
   margin-top: 40px;
+}
+
+.language h3 {
+  color: var(--coral);
+  font-size: 20px;
+}
+
+.event-info h3 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.card-info h3 {
+  font-size: 25px;
 }
 
 .hero .content h3 {
@@ -197,17 +236,6 @@ section {
   margin-bottom: 10px;
 }
 
-.language img {
-  width: 48px;
-  height: 48px;
-  object-fit: cover;
-}
-
-.language h3 {
-  color: var(--coral);
-  font-size: 20px;
-}
-
 .language p {
   width: 55%;
   color: #fff;
@@ -229,6 +257,7 @@ section {
 .home-partner {
   display: none;
 }
+
 /* =============ABOUT PAGE============  */
 
 .about {
@@ -344,10 +373,6 @@ section {
   width: 50%;
 }
 
-.logo-content img {
-  max-width: 100%;
-}
-
 .post-content {
   display: flex;
   flex-wrap: wrap;
@@ -364,13 +389,6 @@ section {
   margin-bottom: 20px;
 }
 
-.event img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
 .event-info {
   position: absolute;
   top: 0;
@@ -382,12 +400,6 @@ section {
   width: 100%;
   height: 100%;
   background-color: #d12411b3;
-}
-
-.event-info h3 {
-  color: #fff;
-  font-size: 40px;
-  margin-bottom: 20px;
 }
 
 .event-info p {
@@ -431,12 +443,6 @@ section {
   display: flex;
   align-items: center;
   padding: 40px 10px;
-}
-
-.footer img {
-  width: 200px;
-  margin-left: 15%;
-  margin-right: 5%;
 }
 
 .footer .footer-title {
@@ -518,10 +524,6 @@ section {
   max-width: 50%;
 }
 
-.card-info h3 {
-  font-size: 25px;
-}
-
 .card-info h4 {
   margin: 10px 0;
   font-size: 17px;
@@ -591,6 +593,15 @@ section {
     margin: 10px;
     text-transform: capitalize;
     color: #fff;
+  }
+
+  .partner-container img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .logo-content img {
+    align-items: center;
   }
 
   .navbar .logo img {
@@ -727,11 +738,6 @@ section {
     color: #d3d3d3;
   }
 
-  .partner-container img {
-    width: 150px;
-    margin-bottom: 20px;
-  }
-
   .professor {
     padding-left: 7vw;
     padding-right: 7vw;
@@ -747,10 +753,6 @@ section {
     display: none;
   }
 
-  .footer {
-    padding: 80px 10px;
-  }
-
   .footer div {
     width: 50%;
     margin-right: 20px;
@@ -762,7 +764,7 @@ section {
     color: #272a31da;
   }
 
-  /* ========= About page desktop ========*/
+  /* ========= About page desktop ======== */
 
   .about {
     height: 100vh;
@@ -832,10 +834,6 @@ section {
 
   .logo-container {
     margin: 50px auto 10px auto;
-  }
-
-  .logo-content img {
-    align-items: center;
   }
 
   .logo-container .text-info {
