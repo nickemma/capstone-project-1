@@ -45,7 +45,7 @@ You're free to use this project however you like it for educational purposes. Ju
 
 ### LIVE DEMO
 
-Check the live demo here [LINK](https://said-laasri.github.io/Capstone-Project-I/)
+Check the live demo here [LINK](https://nickemma.github.io/capstone-project-1/)
 
 ## Authors
 
