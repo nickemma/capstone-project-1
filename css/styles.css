@@ -167,13 +167,14 @@ section {
 
 .hero .content .title-header {
   color: transparent;
-  background: linear-gradient(
-    45deg,
-    #c71e1e 0%,
-    red 26%,
-    #ff9500 76%,
-    #ffb800 100%
-  );
+  background:
+    linear-gradient(
+      45deg,
+      #c71e1e 0%,
+      red 26%,
+      #ff9500 76%,
+      #ffb800 100%
+    );
   -webkit-background-clip: text;
 }
 
@@ -604,6 +605,10 @@ section {
     align-items: center;
   }
 
+  .language img {
+    margin-bottom: 20px;
+  }
+
   .navbar .logo img {
     width: 13vw;
     padding: 5% 0 0 0;
@@ -658,6 +663,10 @@ section {
     height: 100vh;
   }
 
+  .language h3 {
+    margin-bottom: 15px;
+  }
+
   .hero .content h3 {
     font-size: 42px;
     padding-top: 20px;
@@ -700,14 +709,6 @@ section {
     flex-direction: column;
     padding: 30px 20px;
     margin-right: 3px;
-  }
-
-  .language img {
-    margin-bottom: 20px;
-  }
-
-  .language h3 {
-    margin-bottom: 15px;
   }
 
   .language p {
