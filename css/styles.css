@@ -39,7 +39,7 @@ section {
 }
 
 #menu {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #272a31;
   cursor: pointer;
 }
@@ -279,6 +279,7 @@ section {
   color: var(--coral);
   text-transform: capitalize;
   text-align: center;
+  margin-top: 60px;
 }
 
 .about .about-content .about-title {
