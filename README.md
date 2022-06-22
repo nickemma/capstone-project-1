@@ -57,7 +57,7 @@ Check the live demo here [LINK](https://nickemma.github.io/capstone-project-1/)
 
 ## 🤝 credit
 
-[@Cindy Shin](https://www.behance.net/adagio07) Thnks for this amazing Design.
+[@Cindy Shin](https://www.behance.net/adagio07) Thanks for this amazing Design.
 
 ## Show your support
 
