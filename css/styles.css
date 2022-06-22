@@ -167,14 +167,13 @@ section {
 
 .hero .content .title-header {
   color: transparent;
-  background:
-    linear-gradient(
-      45deg,
-      #c71e1e 0%,
-      red 26%,
-      #ff9500 76%,
-      #ffb800 100%
-    );
+  background: linear-gradient(
+    45deg,
+    #c71e1e 0%,
+    red 26%,
+    #ff9500 76%,
+    #ffb800 100%
+  );
   -webkit-background-clip: text;
 }
 
@@ -265,7 +264,6 @@ section {
   background-image: url(../assets/images/digital.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 85vh;
   background-position: center;
   opacity: 0.7;
   padding-top: 10%;
@@ -769,10 +767,6 @@ section {
 
   .about {
     height: 100vh;
-  }
-
-  .about-content {
-    padding-top: 10vh;
   }
 
   .about .about-content h3 {
