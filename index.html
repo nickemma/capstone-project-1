@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone project</title>
+    <!-- =========Font awesome cdn link part===========  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- =========Custom css file part===========  -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu" class="fas fa-bars menu-icon"></div>
+      <div class="navbar-nav">
+        <ul>
+          <li>
+            <i class="fab fa-github"></i>
+          </li>
+          <li>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li>
+            <a href="#">english</a>
+          </li>
+          <li>
+            <a href="#">myPage</a>
+          </li>
+          <li>
+            <a href="#">logOut</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </a>
+        <ul>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#main-program">program</a>
+          </li>
+          <li>
+            <a href="#speakers">join</a>
+          </li>
+          <li>
+            <a href="#partners">sponsor</a>
+          </li>
+          <li>
+            <a href="#footer">news</a>
+          </li>
+          <a href="#" class="btn">cc campaing</a>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero" id="home">
+      <div class="content">
+        <h3>"Hello! future developer"</h3>
+        <h1 class="title title-header">
+          creative commons bootcamp summer 2022
+        </h1>
+        <div class="text-heading">
+          <p>
+            Join our summer Bootcamp alongside the most recognized developers
+            around the world! or be part of the CC Developers Community to make
+            the world a better place
+          </p>
+        </div>
+        <h2>2022.06.05(SUN) ~ 25(SAT)</h2>
+        <p>@ Programming Congregation, Example University and more</p>
+      </div>
+    </section>
+    <section id="main-program" class="program">
+      <h2>main program</h2>
+      <hr class="line" />
+      <ul class="row-items">
+        <li class="language">
+          <img src="./assets/images/python.svg" alt="" />
+          <h3 class="title-text">Python</h3>
+          <p>Find a new ways to analyze a whole bunch of data using python</p>
+        </li>
+        <li class="language">
+          <img src="./assets/images/js.svg" alt="" />
+          <h3 class="title-text">Javascript</h3>
+          <p>
+            Give life to your website with one of the best programming languages
+          </p>
+        </li>
+        <li class="language">
+          <img src="./assets/images/bootstrap.svg" alt="" />
+          <h3 class="title-text">Bootstrap</h3>
+          <p>
+            Make quick and elegant web pages for prototyping and focus on what's
+            special
+          </p>
+        </li>
+        <li class="language">
+          <img src="./assets/images/react.svg" alt="" />
+          <h3 class="title-text">React</h3>
+          <p>
+            Accelerate your JS developing process and focus on the important
+            part
+          </p>
+        </li>
+        <li class="language">
+          <img src="./assets/images/angular.svg" alt="" />
+          <h3 class="title-text">Angular</h3>
+          <p>
+            Accelerate your JS developing process and focus on the important
+            part
+          </p>
+        </li>
+      </ul>
+      <a href="#" class="btn">join cc bootcamp summer 2022</a>
+      <a href="#" class="text">see the whole program</a>
+    </section>
+
+    <section class="professor" id="speakers">
+      <h2 class="subtitle">bootcamp professors</h2>
+      <hr class="line" />
+      <div class="grid-container">
+        <!-- ========speakers loaded dynamically using Javascript=========  -->
+      </div>
+      <button type="button" class="btn">
+        More <i class="fas fa-arrow-down"></i>
+      </button>
+    </section>
+
+    <section class="partner home-partner" id="partners">
+      <h2>partner</h2>
+      <hr class="line" />
+      <div class="partner-container">
+        <a href="#"
+          ><img src="./assets/images/mozilla.svg" alt="mozilla firefox logo"
+        /></a>
+        <a href="#"
+          ><img src="./assets/images/google.svg" alt="google logo"
+        /></a>
+        <a href="#"><img src="./assets/images/naver.svg" alt="navay logo" /></a>
+        <a href="#"
+          ><img src="./assets/images/daumkakao.svg" alt="daumkakao logo"
+        /></a>
+        <a href="#"
+          ><img src="./assets/images/airbnb.svg" alt="airbnb logo"
+        /></a>
+      </div>
+    </section>
+    <footer class="footer footer-home" id="footer">
+      <img src="./assets/images/creative_commons.svg" alt="logo" />
+      <div>
+        <p class="footer-title">
+          2022 creative commons Portugal, all right reserved
+        </p>
+        <p class="copyright home-copyright">
+          CC Bootcamp Summer 2022 works under the Creative Commons license which
+          means that the content provided during the program will be under the
+          same license. Refer to the Creative Commons page to read more about
+          it.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ========custom js file part========= -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
