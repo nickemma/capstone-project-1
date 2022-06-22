@@ -293,7 +293,8 @@ section {
 }
 
 .about .about-content .about-header {
-  color: #d11d09;
+  color: var(--coral);
+  font-size: 50px;
   font-weight: 700;
 }
 
