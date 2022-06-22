@@ -38,7 +38,7 @@ section {
   backdrop-filter: blur(5px);
 }
 
-#menu {
+.menu-icon {
   font-size: 3rem;
   color: #272a31;
   cursor: pointer;
@@ -166,14 +166,13 @@ section {
 
 .hero .content .title-header {
   color: transparent;
-  background:
-    linear-gradient(
-      45deg,
-      #c71e1e 0%,
-      red 26%,
-      #ff9500 76%,
-      #ffb800 100%
-    );
+  background: linear-gradient(
+    45deg,
+    #c71e1e 0%,
+    red 26%,
+    #ff9500 76%,
+    #ffb800 100%
+  );
   -webkit-background-clip: text;
 }
 
@@ -651,7 +650,7 @@ section {
     color: var(--dark-blue);
   }
 
-  .header #menu {
+  .header .menu-icon {
     display: none;
   }
 
